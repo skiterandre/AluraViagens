@@ -13,6 +13,8 @@
 		3BCB5BF62765048800035359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB5BF42765048800035359 /* Main.storyboard */; };
 		3BCB5BF82765048900035359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB5BF72765048900035359 /* Assets.xcassets */; };
 		3BCB5BFB2765048900035359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB5BF92765048900035359 /* LaunchScreen.storyboard */; };
+		3BCB5C0727650E1E00035359 /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB5C0627650E1E00035359 /* HomeTableViewHeader.xib */; };
+		3BCB5C092765119C00035359 /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCB5C082765119C00035359 /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3BCB5BF72765048900035359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BCB5BFA2765048900035359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BCB5BFC2765048900035359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCB5C0627650E1E00035359 /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		3BCB5C082765119C00035359 /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,57 @@
 		3BCB5BED2765048800035359 /* AluraViagens */ = {
 			isa = PBXGroup;
 			children = (
-				3BCB5BEE2765048800035359 /* AppDelegate.swift */,
-				3BCB5BF02765048800035359 /* SceneDelegate.swift */,
-				3BCB5BF22765048800035359 /* ViewController.swift */,
-				3BCB5BF42765048800035359 /* Main.storyboard */,
+				3BCB5C0B27664A3000035359 /* ViewModel */,
+				3BCB5C0A276649CC00035359 /* AppDelegate */,
+				3BCB5C0527650DF600035359 /* Models */,
+				3BCB5C0427650DEE00035359 /* Views */,
+				3BCB5C0327650DE000035359 /* Controllers */,
 				3BCB5BF72765048900035359 /* Assets.xcassets */,
 				3BCB5BF92765048900035359 /* LaunchScreen.storyboard */,
 				3BCB5BFC2765048900035359 /* Info.plist */,
 			);
 			path = AluraViagens;
+			sourceTree = "<group>";
+		};
+		3BCB5C0327650DE000035359 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BCB5BF22765048800035359 /* ViewController.swift */,
+				3BCB5C082765119C00035359 /* HomeTableViewHeader.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3BCB5C0427650DEE00035359 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BCB5BF42765048800035359 /* Main.storyboard */,
+				3BCB5C0627650E1E00035359 /* HomeTableViewHeader.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BCB5C0527650DF600035359 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BCB5C0A276649CC00035359 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3BCB5BF02765048800035359 /* SceneDelegate.swift */,
+				3BCB5BEE2765048800035359 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3BCB5C0B27664A3000035359 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BCB5BFB2765048900035359 /* LaunchScreen.storyboard in Resources */,
+				3BCB5C0727650E1E00035359 /* HomeTableViewHeader.xib in Resources */,
 				3BCB5BF82765048900035359 /* Assets.xcassets in Resources */,
 				3BCB5BF62765048800035359 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BCB5BF32765048800035359 /* ViewController.swift in Sources */,
+				3BCB5C092765119C00035359 /* HomeTableViewHeader.swift in Sources */,
 				3BCB5BEF2765048800035359 /* AppDelegate.swift in Sources */,
 				3BCB5BF12765048800035359 /* SceneDelegate.swift in Sources */,
 			);
