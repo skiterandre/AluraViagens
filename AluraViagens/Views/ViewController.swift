@@ -63,6 +63,13 @@ extension ViewController: UITableViewDataSource{
 }
 
 extension ViewController: UITableViewDelegate{
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let detalheViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetalheViewController")
+        let detalheViewController = DetalheViewController(nibName: "DetalheViewController", bundle: nil)
+        navigationController?.pushViewController(detalheViewController, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         if(section == 0){
             let header = Bundle.main.loadNibNamed("HomeTableViewHeader", owner: self, options: nil)?.first as? HomeTableViewHeader
