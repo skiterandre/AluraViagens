@@ -14,6 +14,7 @@
 		3B1D9900278CE3050010B7B7 /* DetalheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D98FE278CE3050010B7B7 /* DetalheViewController.xib */; };
 		3B26AC912766AD8F00F1D4F4 /* ViagensViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AC902766AD8F00F1D4F4 /* ViagensViewModel.swift */; };
 		3B26AC932766AE7200F1D4F4 /* ViagemDestaqueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AC922766AE7200F1D4F4 /* ViagemDestaqueViewModel.swift */; };
+		3B3EF6C127BD44D70095458E /* server-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BA86F902799A5E300465D26 /* server-response.json */; };
 		3BA86F8C2799A5BA00465D26 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA86F882799A5BA00465D26 /* Viagem.swift */; };
 		3BA86F8D2799A5BA00465D26 /* DecodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA86F892799A5BA00465D26 /* DecodableData.swift */; };
 		3BA86F8F2799A5BA00465D26 /* TiposDeViagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA86F8B2799A5BA00465D26 /* TiposDeViagens.swift */; };
@@ -261,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3EF6C127BD44D70095458E /* server-response.json in Resources */,
 				3B1D9900278CE3050010B7B7 /* DetalheViewController.xib in Resources */,
 				3BCB5BFB2765048900035359 /* LaunchScreen.storyboard in Resources */,
 				3BCB5C0727650E1E00035359 /* HomeTableViewHeader.xib in Resources */,
